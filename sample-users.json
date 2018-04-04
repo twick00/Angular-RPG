@@ -1,0 +1,112 @@
+{   
+    "abilities": {
+    "spells":[{
+        "fireball": {
+            "requires":{
+                "mana":10
+            },
+            "damage":10
+        }
+    }],
+    "skills": [{
+        "shield-bash": {
+            "requires":{
+                "shield":1
+            },
+            "damage":10
+        }
+    }]
+    },
+    "users": [{
+        "username":"Tyler",
+        "level":1,
+        "stats": {
+            "health": 100,
+            "mana": 30,
+            "strength": 15,
+            "dexterity": 8,
+            "constitution": 13,
+            "intelligence": 12,
+            "wisdom": 13,
+            "charisma": 12
+        },
+        "class": "warrior",
+        "location":{
+            "screenId":0,
+            "x":0,
+            "y":0
+        }
+    },
+    {
+       "username":"Tom",
+        "level":1,
+        "stats": {
+            "strength": 12,
+            "dexterity": 12,
+            "constitution": 12,
+            "intelligence": 14,
+            "wisdom": 16,
+            "charisma": 12
+        },
+        "class": "shaman",
+        "location":{
+            "screenId":0,
+            "x":0,
+            "y":0
+        }
+    },
+    {
+        "username":"Zack",
+        "level":1,
+        "stats": {
+            "strength": 12,
+            "dexterity": 13,
+            "constitution": 11,
+            "intelligence": 12,
+            "wisdom": 12,
+            "charisma": 13
+        },
+        "class": "ranger",
+        "location":{
+            "screenId":0,
+            "x":0,
+            "y":0
+        }
+    },
+    {
+       "username":"Andrew",
+        "level":1,
+        "stats": {
+            "strength": 11,
+            "dexterity": 11,
+            "constitution": 12,
+            "intelligence": 13,
+            "wisdom": 13,
+            "charisma": 14
+        },
+        "class": "wizard",
+        "location":{
+            "screenId":0,
+            "x":0,
+            "y":0
+        }
+    },
+    {
+       "username":"Ryan",
+        "level":1,
+        "stats": {
+            "strength": 12,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 11,
+            "wisdom": 11,
+            "charisma": 13
+        },
+        "class": "rogue",
+        "location":{
+            "screenId":0,
+            "x":0,
+            "y":0
+        }
+    }]
+}

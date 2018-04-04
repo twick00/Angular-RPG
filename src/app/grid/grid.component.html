@@ -1,0 +1,9 @@
+<div class="container-fluid">
+  <div class="grid-container">
+    <div *ngFor="let y of value(matrix); let u = index" [attr.data-index]="u"  class="grid-row">
+      <div *ngFor="let x of value(matrix); let i = index" [attr.data-index]="i" class="square ">
+        
+      </div>
+    </div>
+  </div>
+</div>

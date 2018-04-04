@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image:url(/assets/topography.svg),linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: auto;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}

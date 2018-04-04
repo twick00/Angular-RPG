@@ -1,0 +1,17 @@
+<div class="container-fluid">
+<div *ngFor="let user of users| async; let i = index" class="card">
+  <div class="card-body">
+    <div class="card-title">
+      <h3>{{user.username}} <small> the {{user.class}}</small></h3>
+    </div>
+    <ul class="stat-grid list-group">
+      <li>Str: {{(users | async)[i].stats.strength}}</li>
+      <li>Dex: {{(users | async)[i].stats.dexterity}}</li>
+      <li>Con: {{(users | async)[i].stats.constitution}}</li>
+      <li>Int: {{(users | async)[i].stats.intelligence}}</li>
+      <li>Wis: {{(users | async)[i].stats.wisdom}}</li>
+      <li>Cha: {{(users | async)[i].stats.charisma}}</li>
+    </ul>
+  </div>
+</div>
+</div>
